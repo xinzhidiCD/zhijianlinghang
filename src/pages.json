@@ -1,0 +1,262 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^(?!z-paging-refresh|z-paging-load-more)z-paging(.*)": "z-paging/components/z-paging$1/z-paging$1.vue",
+      "^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue",
+      "^my-(.*)": "@/pages/components/my-$1.vue",
+      "^pc-(.*)": "@/pagesPc/components/pc-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/callback",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/error",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/agree",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/401",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/liveRoom",
+      "style": {}
+    },
+    {
+      "path": "pages/home/productDetail",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/confirm",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/cashier",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/bindPhone",
+      "style": {
+        "navigationBarTitleText": "绑定手机号"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/mine/coupon",
+      "style": {
+        "navigationBarTitleText": "优惠券"
+      }
+    },
+    {
+      "path": "pages/mine/user",
+      "style": {
+        "navigationBarTitleText": "个人资料"
+      }
+    },
+    {
+      "path": "pages/mine/editPhone",
+      "style": {
+        "navigationBarTitleText": "修改手机号"
+      }
+    },
+    {
+      "path": "pages/order/order",
+      "style": {
+        "navigationBarTitleText": "订单列表"
+      }
+    },
+    {
+      "path": "pages/order/orderDetail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/order/paySuccess"
+    },
+    {
+      "path": "pages/mine/course",
+      "style": {
+        "navigationBarTitleText": "我的课程"
+      }
+    },
+    {
+      "path": "pages/mine/courseDetails",
+      "style": {
+        "navigationBarTitleText": "课程学习"
+      }
+    },
+    {
+      "path": "pages/mine/points",
+      "style": {
+        "navigationBarTitleText": "我的积分"
+      }
+    },
+    {
+      "path": "pages/mine/award",
+      "style": {
+        "navigationBarTitleText": "我的奖品"
+      }
+    },
+    {
+      "path": "pages/mine/feedback",
+      "style": {
+        "navigationBarTitleText": "意见反馈"
+      }
+    },
+    {
+      "path": "pages/home/invite",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pagesPc",
+      "pages": [
+        {
+          "path": "login/login",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "login/callback",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "home/home",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "home/liveRoom",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "home/error",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "401",
+          "style": {
+            "navigationBarTitleText": "401"
+          }
+        },
+        {
+          "path": "mine/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mine/order",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mine/course",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mine/points",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mine/coupon",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mine/award",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mine/feedback",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mine/order/orderDetail",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mine/order/paySuccess",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mine/course/courseDetail",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "领航通直播",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationStyle": "custom",
+    "backgroundColor": "#ffffff"
+  }
+}
