@@ -166,4 +166,4 @@ docker run -d --name linghang-live -p 8080:80 linghang-live:latest
 
 微信二维码：
 
-![微信联系二维码](docs/images/contact-wechat.jpg)
+![微信联系二维码](docs/images/contact-wechats.jpg)
