@@ -162,7 +162,7 @@ docker run -d --name linghang-live -p 8080:80 linghang-live:latest
 - 官网：https://www.xzdlinghang.com
 - 电话：19180707636
 - 邮箱：wangkai@xinzhidi.com
-- 微信：扫码添加项目负责人 
+- 微信：扫码添加
 
 微信二维码：
 
